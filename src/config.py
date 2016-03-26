@@ -33,15 +33,15 @@ __author__ = 'pete.frisella@gmail.com (Pete Frisella)'
 
 # OAuth 2.0 Client Settings
 AUTH_CONFIG = {
-    'OAUTH_CLIENT_ID': 'REPLACE THIS WITH YOUR CLIENT ID',
-    'OAUTH_CLIENT_SECRET': 'REPLACE THIS WITH YOUR CLIENT SECRET',
+    '358349459581-906t6ngg2jsjofi9kafi01nf77khsmsn.apps.googleusercontent.com': 'REPLACE THIS WITH YOUR CLIENT ID',
+    'gJkRgfYYCU5Wjh3Cr9O7bBYP': 'REPLACE THIS WITH YOUR CLIENT SECRET',
 
     # E.g. Local Dev Env on port 8080: http://localhost:8080
     # E.g. Hosted on App Engine: https://your-application-id.appspot.com
     'OAUTH_REDIRECT_URI': '%s%s' % (
-        'https://REPLACE_THIS_WITH_YOUR_APPLICATION_NAME.appspot.com OR http://localhost:8080',
+        'https://analytics-projects-uark-edu.appspot.com',
         '/admin/auth')
 }
 
 # XSRF Settings
-XSRF_KEY = 'REPLACE THIS WITH A SECRET PHRASE THAT SHOULD NOT BE SHARED'
+XSRF_KEY = 'KJASDJE*(Awyd9cAHd9*AWDQ@#hikuae7yFIH#QukheX#I*Y@khuACEkAw'
